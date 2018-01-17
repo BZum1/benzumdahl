@@ -1,0 +1,50 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+body {
+  background: #eee;
+  font-family: 'Fauna One', serif;
+  color: #999;
+}
+
+h1 {
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 32px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.slice {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+img.main {
+  margin-top: 50px;
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+a:hover {
+  color: #000;
+}
